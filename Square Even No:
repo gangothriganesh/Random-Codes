@@ -1,0 +1,4 @@
+m=int(input("Enter the lower limit: "))
+n=int(input("Enter the upper limit: "))
+squares ={i**2 for i in range(m,n) if(i%2==0)}
+print("The set of squares of even numbers: ",squares)
